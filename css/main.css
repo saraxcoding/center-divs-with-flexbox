@@ -117,6 +117,28 @@ body {
   align-items: center;
 }
 
+.wrapper header, .wrapper main, .wrapper footer {
+    color: #9cc4b2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper header {
+    font-size: 3em;
+    padding: 60px 20px;
+}
+
+.wrapper main {
+    font-size: 2em;
+    padding-bottom: 50px;
+}
+
+.wrapper span {
+    text-transform: uppercase;
+}
+
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color:#9cc4b2;
@@ -124,7 +146,7 @@ body {
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.5em;
   background-color: #393d3f;
   height: auto;
   width: 30%;
